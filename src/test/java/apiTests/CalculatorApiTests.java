@@ -35,7 +35,7 @@ class CalculatorApiTests {
 		int result = testRestTemplate.getForObject(server+":" + randomServerPort + "/api/sum?a=5&b=10", Integer.class);
 		assertEquals(15, result);
 	}
-
+//asdf
 //	@Test
 //	void getSum() {
 //		ResponseEntity<Integer> result = testRestTemplate.getForEntity(server+":" + randomServerPort + "/api/sum?a=5&b=10", Integer.class);
