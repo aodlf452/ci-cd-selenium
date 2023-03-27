@@ -24,7 +24,7 @@ public class Calculator {
     public void setLeftOperand(int a) {
         this.a = a;
     }
-
+//asd
     public void setRightOperand(int b) {
         this.b = b;
     }
